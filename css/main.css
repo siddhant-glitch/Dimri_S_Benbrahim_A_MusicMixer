@@ -1,0 +1,56 @@
+@charset("UTF-8");
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body{
+  background:yellow;
+	font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size:90px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						6px 6px #ff1f8f,
+						12px 12px #000000;
+}
+
+
+.music_mixer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.base{
+  margin: 0 auto;
+  width: 90%;
+  height: 450px;
+  background-color: black;
+}
+
+
+.music_icons{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.placeholder{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
